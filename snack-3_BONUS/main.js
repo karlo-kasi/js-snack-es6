@@ -14,7 +14,7 @@ function myFucntion (listaNuova, a , b ){
     for (let i = 0; i < lista.length; i++){
         
         // se indice è maggiore uguale al parametro a e l'indice b è minore o uguale a l'indice 
-        if ( i >= (a - 1) && i <= ( b - 1)){
+        if ( i > (a - 1) && i < ( b - 1)){
            listaNuova.push(lista[i])
            
         } 
@@ -23,4 +23,4 @@ function myFucntion (listaNuova, a , b ){
     console.log(newArray)
 }
 
-myFucntion (newArray, 4 , 5)
+myFucntion (newArray, 1 , 5)
