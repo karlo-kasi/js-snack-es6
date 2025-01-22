@@ -18,7 +18,7 @@ let bici = [
   let pesoMinore = bici[0].peso
 
 
-  for (let i = 0; i < bici.length; i++){
+  for (let i = 1; i < bici.length; i++){
      
 
      if (pesoMinore >= bici[i].peso){
